@@ -2,36 +2,74 @@
   "issue": "2026-W42",
   "weekStart": "2026-10-12",
   "weekEnd": "2026-10-18",
-  "generatedAt": "2026-10-18",
-  "mode": "curated",
-  "editorialNote": "2026-W42首期人工精选文献，含经期刊页面核验的空间组学研究。新增专题仍待自动检索补齐，不能据此认定该周无干眼论文。分析基于可公开访问的摘要与论文页面，未完整复核全文。",
+  "generatedAt": "2026-10-19",
+  "mode": "enriched",
+  "editorialNote": "自动抓取自 Europe PMC 的可溯源数据；主题期刊范围使用2025年中科院最后一版大类分区候选池，摘要AI初稿需人工审校；历史周刊默认不覆盖。",
+  "rankPolicy": {
+    "scheme": "CAS",
+    "edition": 2025,
+    "basis": "large_category"
+  },
+  "topicBackfillComplete": true,
+  "errors": [],
   "papers": [
     {
-      "id": "nature-microexon-2026",
-      "journal": "Nature",
-      "group": "Nature",
-      "date": "2026-10-14",
-      "type": "Article",
+      "id": "eye-melanoma-2026",
+      "journal": "JAMA Ophthalmology",
+      "group": "Eye",
+      "date": "2026-10-15",
+      "type": "Original Investigation",
       "featured": true,
-      "title": "A microexon regulatory code reveals autism-linked genetic variation",
-      "zh": "微外显子调控密码揭示与孤独症相关的遗传变异",
-      "authors": "Parada GE, Bretschneider H, et al.",
-      "doi": "10.1038/s41586-026-11119-w",
-      "pmid": null,
-      "url": "https://www.nature.com/articles/s41586-026-11119-w",
+      "title": "Cytopathology and Prognostic Accuracy of 15-GEP/PRAME: The Collaborative Ocular Oncology Group Study 2",
+      "zh": "细胞病理学能否改善葡萄膜黑色素瘤 15-GEP/PRAME 预后预测？",
+      "authors": "Lane AM, Schefler AC, Correa ZM, et al.",
+      "doi": "10.1001/jamaophthalmol.2026.4378",
+      "pmid": "42879143",
+      "url": "https://doi.org/10.1001/jamaophthalmol.2026.4378",
       "tags": [
-        "生物信息学",
-        "RNA 剪接",
-        "神经发育"
+        "眼肿瘤",
+        "预后分层",
+        "分子诊断"
       ],
-      "finding": "研究整合脑组织转录组及单核数据，扩展神经元微外显子图谱，并通过机器学习建立剪接调控序列模型，识别可能改变剪接的孤独症相关稀有变异。",
-      "why": "将非编码调控变异与神经元特异性剪接连接，为解释部分既往难以定位功能的遗传风险提供新路径。",
-      "problem": "微外显子注释不全，且难以系统预测非编码变异对神经元可变剪接的影响。",
-      "innovation": "把大规模微外显子发现、神经元亚型差异与可解释的序列调控建模串联，形成可用于遗传变异优先级排序的框架。",
-      "limitations": "变异影响多由模型预测和队列关联支持，不能直接等同于致病因果；细胞类型及功能实验仍需扩大验证。",
-      "next": "结合患者来源 iPSC 神经元、长读长转录组及 CRISPR 碱基编辑，逐一验证候选变异对剪接和神经元表型的影响。",
+      "finding": "多中心队列研究评估在 15 基因表达谱与 PRAME 风险分层之外，确认性细胞病理结果是否影响葡萄膜黑色素瘤转移风险预测准确性。具体效应量需结合论文结果核对。",
+      "why": "葡萄膜黑色素瘤的转移风险判定关系到随访密度、影像监测和患者咨询，是典型分子诊断临床转化问题。",
+      "problem": "在已使用 GEP/PRAME 的条件下，传统细胞病理检查是否还能带来额外的预后价值。",
+      "innovation": "结合多中心随访资料验证分子标志物与细胞病理学信息的互补性，直接针对临床工作流程。",
+      "limitations": "当前演示仅核验研究目的与设计，未据全文分析具体效应值或最终结论，不能据此声称预后准确性提高。",
+      "next": "核对原文完整统计结果后评估增量判别能力、校准度及决策曲线，并进行外部人群验证。",
       "sections": [
-        "Nature"
+        "Eye"
+      ],
+      "rankSystem": "CAS",
+      "rankEdition": 2025,
+      "rankZone": 1
+    },
+    {
+      "id": "eye-faricimab-2026",
+      "journal": "JAMA Ophthalmology",
+      "group": "Eye",
+      "date": "2026-10-15",
+      "type": "Research Letter",
+      "featured": false,
+      "title": "Variables Associated With Faricimab Treatment Durability in Neovascular Age-Related Macular Degeneration: A Post Hoc Analysis of the TENAYA and LUCERNE Trials",
+      "zh": "哪些因素提示法瑞西单抗在新生血管性 AMD 中具有更长维持疗效？",
+      "authors": "Tan CS, Bakall B, Koh AHC, et al.",
+      "doi": "10.1001/jamaophthalmol.2026.4385",
+      "pmid": null,
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2854986",
+      "tags": [
+        "视网膜",
+        "nAMD",
+        "抗 VEGF"
+      ],
+      "finding": "TENAYA/LUCERNE 试验事后分析发现，较低基线视网膜中央厚度和 PED 最大厚度，以及早期液体消退，与较长的法瑞西单抗给药间隔相关。",
+      "why": "对高频就诊的 nAMD 患者而言，疗效持续时间直接影响注射负担、依从性和长期管理。",
+      "problem": "如何在治疗早期识别更可能延长注射间隔的患者。",
+      "innovation": "结合随机试验影像特征与早期解剖反应，寻找可能提示延长给药间隔的特征。",
+      "limitations": "属于事后探索分析，部分 P 值未经多重比较校正；不能将相关性解释为稳定预测因子，且不能直接外推至其他药物。",
+      "next": "前瞻性评估超过 16 周的个体化方案，并在真实世界研究中验证影像学预测模型。",
+      "sections": [
+        "Eye"
       ],
       "rankSystem": "CAS",
       "rankEdition": 2025,
@@ -100,6 +138,37 @@
       "rankZone": 1
     },
     {
+      "id": "nature-microexon-2026",
+      "journal": "Nature",
+      "group": "Nature",
+      "date": "2026-10-14",
+      "type": "Article",
+      "featured": true,
+      "title": "A microexon regulatory code reveals autism-linked genetic variation",
+      "zh": "微外显子调控密码揭示与孤独症相关的遗传变异",
+      "authors": "Parada GE, Bretschneider H, et al.",
+      "doi": "10.1038/s41586-026-11119-w",
+      "pmid": null,
+      "url": "https://www.nature.com/articles/s41586-026-11119-w",
+      "tags": [
+        "生物信息学",
+        "RNA 剪接",
+        "神经发育"
+      ],
+      "finding": "研究整合脑组织转录组及单核数据，扩展神经元微外显子图谱，并通过机器学习建立剪接调控序列模型，识别可能改变剪接的孤独症相关稀有变异。",
+      "why": "将非编码调控变异与神经元特异性剪接连接，为解释部分既往难以定位功能的遗传风险提供新路径。",
+      "problem": "微外显子注释不全，且难以系统预测非编码变异对神经元可变剪接的影响。",
+      "innovation": "把大规模微外显子发现、神经元亚型差异与可解释的序列调控建模串联，形成可用于遗传变异优先级排序的框架。",
+      "limitations": "变异影响多由模型预测和队列关联支持，不能直接等同于致病因果；细胞类型及功能实验仍需扩大验证。",
+      "next": "结合患者来源 iPSC 神经元、长读长转录组及 CRISPR 碱基编辑，逐一验证候选变异对剪接和神经元表型的影响。",
+      "sections": [
+        "Nature"
+      ],
+      "rankSystem": "CAS",
+      "rankEdition": 2025,
+      "rankZone": 1
+    },
+    {
       "id": "nature-glioma-2026",
       "journal": "Nature",
       "group": "Nature",
@@ -162,99 +231,6 @@
       "rankZone": 1
     },
     {
-      "id": "cell-fingerprint-2026",
-      "journal": "Cell",
-      "group": "Cell",
-      "date": "2026-10-09",
-      "type": "Resource",
-      "supplement": true,
-      "title": "Mapping transcriptional responses to cellular perturbations with RNA fingerprinting",
-      "zh": "RNA 指纹将单细胞表达状态映射到扰动机制",
-      "authors": "Grabski IN, Lee J, Blair JD, et al.",
-      "doi": "10.1016/j.cell.2026.09.017",
-      "pmid": "42854686",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0092867426011190",
-      "tags": [
-        "Perturb-seq",
-        "单细胞",
-        "统计模型"
-      ],
-      "finding": "提出 RNA fingerprinting 方法，将新实验中的单细胞转录状态与遗传/化学扰动参考字典匹配，可解析 p53 调控、药物作用与感染相关免疫异质性。",
-      "why": "单细胞描述性图谱非常丰富，而将未知细胞状态转化为可检验的扰动机制仍有明显缺口。",
-      "problem": "如何把观察性单细胞数据与已有因果扰动实验连通，并进行概率化机制归因。",
-      "innovation": "构建统计指纹表示并支持基因组规模、组合扰动与跨实验查询，形成可复用的机制检索方法。",
-      "limitations": "表现依赖参考扰动字典覆盖范围；相关性匹配不自动等价于对新组织背景的因果证明。",
-      "next": "结合空间转录组、CRISPR 验证及跨平台批次效应评估，建立更广泛的扰动参考图库。",
-      "sections": [
-        "Cell"
-      ],
-      "rankSystem": "CAS",
-      "rankEdition": 2025,
-      "rankZone": 1
-    },
-    {
-      "id": "eye-melanoma-2026",
-      "journal": "JAMA Ophthalmology",
-      "group": "Eye",
-      "date": "2026-10-15",
-      "type": "Original Investigation",
-      "featured": false,
-      "title": "Cytopathology and Prognostic Accuracy of 15-GEP/PRAME: The Collaborative Ocular Oncology Group Study 2",
-      "zh": "细胞病理学能否改善葡萄膜黑色素瘤 15-GEP/PRAME 预后预测？",
-      "authors": "Lane AM, Schefler AC, Correa ZM, et al.",
-      "doi": "10.1001/jamaophthalmol.2026.4378",
-      "pmid": "42879143",
-      "url": "https://doi.org/10.1001/jamaophthalmol.2026.4378",
-      "tags": [
-        "眼肿瘤",
-        "预后分层",
-        "分子诊断"
-      ],
-      "finding": "多中心队列研究评估在 15 基因表达谱与 PRAME 风险分层之外，确认性细胞病理结果是否影响葡萄膜黑色素瘤转移风险预测准确性。具体效应量需结合论文结果核对。",
-      "why": "葡萄膜黑色素瘤的转移风险判定关系到随访密度、影像监测和患者咨询，是典型分子诊断临床转化问题。",
-      "problem": "在已使用 GEP/PRAME 的条件下，传统细胞病理检查是否还能带来额外的预后价值。",
-      "innovation": "结合多中心随访资料验证分子标志物与细胞病理学信息的互补性，直接针对临床工作流程。",
-      "limitations": "当前演示仅核验研究目的与设计，未据全文分析具体效应值或最终结论，不能据此声称预后准确性提高。",
-      "next": "核对原文完整统计结果后评估增量判别能力、校准度及决策曲线，并进行外部人群验证。",
-      "sections": [
-        "Eye"
-      ],
-      "rankSystem": "CAS",
-      "rankEdition": 2025,
-      "rankZone": 1
-    },
-    {
-      "id": "eye-faricimab-2026",
-      "journal": "JAMA Ophthalmology",
-      "group": "Eye",
-      "date": "2026-10-15",
-      "type": "Research Letter",
-      "featured": false,
-      "title": "Variables Associated With Faricimab Treatment Durability in Neovascular Age-Related Macular Degeneration: A Post Hoc Analysis of the TENAYA and LUCERNE Trials",
-      "zh": "哪些因素提示法瑞西单抗在新生血管性 AMD 中具有更长维持疗效？",
-      "authors": "Tan CS, Bakall B, Koh AHC, et al.",
-      "doi": "10.1001/jamaophthalmol.2026.4385",
-      "pmid": null,
-      "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2854986",
-      "tags": [
-        "视网膜",
-        "nAMD",
-        "抗 VEGF"
-      ],
-      "finding": "TENAYA/LUCERNE 试验事后分析发现，较低基线视网膜中央厚度和 PED 最大厚度，以及早期液体消退，与较长的法瑞西单抗给药间隔相关。",
-      "why": "对高频就诊的 nAMD 患者而言，疗效持续时间直接影响注射负担、依从性和长期管理。",
-      "problem": "如何在治疗早期识别更可能延长注射间隔的患者。",
-      "innovation": "结合随机试验影像特征与早期解剖反应，寻找可能提示延长给药间隔的特征。",
-      "limitations": "属于事后探索分析，部分 P 值未经多重比较校正；不能将相关性解释为稳定预测因子，且不能直接外推至其他药物。",
-      "next": "前瞻性评估超过 16 周的个体化方案，并在真实世界研究中验证影像学预测模型。",
-      "sections": [
-        "Eye"
-      ],
-      "rankSystem": "CAS",
-      "rankEdition": 2025,
-      "rankZone": 1
-    },
-    {
       "id": "doi-10-1038-s41551-026-01800-w",
       "journal": "Nature Biomedical Engineering",
       "group": "SingleCell",
@@ -285,12 +261,37 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "reviewStatus": "abstract_only"
+    },
+    {
+      "id": "cell-fingerprint-2026",
+      "journal": "Cell",
+      "group": "Cell",
+      "date": "2026-10-09",
+      "type": "Resource",
+      "supplement": true,
+      "title": "Mapping transcriptional responses to cellular perturbations with RNA fingerprinting",
+      "zh": "RNA 指纹将单细胞表达状态映射到扰动机制",
+      "authors": "Grabski IN, Lee J, Blair JD, et al.",
+      "doi": "10.1016/j.cell.2026.09.017",
+      "pmid": "42854686",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0092867426011190",
+      "tags": [
+        "Perturb-seq",
+        "单细胞",
+        "统计模型"
+      ],
+      "finding": "提出 RNA fingerprinting 方法，将新实验中的单细胞转录状态与遗传/化学扰动参考字典匹配，可解析 p53 调控、药物作用与感染相关免疫异质性。",
+      "why": "单细胞描述性图谱非常丰富，而将未知细胞状态转化为可检验的扰动机制仍有明显缺口。",
+      "problem": "如何把观察性单细胞数据与已有因果扰动实验连通，并进行概率化机制归因。",
+      "innovation": "构建统计指纹表示并支持基因组规模、组合扰动与跨实验查询，形成可复用的机制检索方法。",
+      "limitations": "表现依赖参考扰动字典覆盖范围；相关性匹配不自动等价于对新组织背景的因果证明。",
+      "next": "结合空间转录组、CRISPR 验证及跨平台批次效应评估，建立更广泛的扰动参考图库。",
+      "sections": [
+        "Cell"
+      ],
+      "rankSystem": "CAS",
+      "rankEdition": 2025,
+      "rankZone": 1
     }
-  ],
-  "topicBackfillComplete": false,
-  "rankPolicy": {
-    "scheme": "CAS",
-    "edition": 2025,
-    "basis": "large_category"
-  }
+  ]
 }

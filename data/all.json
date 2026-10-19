@@ -37,7 +37,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "eye-melanoma-2026",
@@ -45,7 +45,7 @@
       "group": "Eye",
       "date": "2026-10-15",
       "type": "Original Investigation",
-      "featured": false,
+      "featured": true,
       "title": "Cytopathology and Prognostic Accuracy of 15-GEP/PRAME: The Collaborative Ocular Oncology Group Study 2",
       "zh": "细胞病理学能否改善葡萄膜黑色素瘤 15-GEP/PRAME 预后预测？",
       "authors": "Lane AM, Schefler AC, Correa ZM, et al.",
@@ -70,7 +70,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "eye-faricimab-2026",
@@ -103,7 +103,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "cell-smaht-2026",
@@ -136,7 +136,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "doi-10-1038-s41551-026-01800-w",
@@ -170,7 +170,7 @@
       "rankZone": 1,
       "reviewStatus": "abstract_only",
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "nature-microexon-2026",
@@ -203,7 +203,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "nature-glioma-2026",
@@ -236,7 +236,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "nature-protease-2026",
@@ -269,7 +269,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     },
     {
       "id": "cell-fingerprint-2026",
@@ -302,7 +302,7 @@
       "rankEdition": 2025,
       "rankZone": 1,
       "originIssue": "2026-W42",
-      "sourceMode": "curated"
+      "sourceMode": "enriched"
     }
   ]
 }
