@@ -1,0 +1,120 @@
+{
+  "scheme": "CAS",
+  "edition": 2025,
+  "rankBasis": "large_category",
+  "disclaimer": "以2025年中科院期刊分区表升级版大类分区为筛选依据。自2026年起中科院文献情报中心不再更新此表；部分来源为第三方整理，仅供检索筛选，正式认定以原始分区文件为准。",
+  "stopUpdateSource": "https://www.lib.szu.edu.cn/er/fenqubiao",
+  "journals": {
+    "Nature": {
+      "zone": 1,
+      "source": "https://www.nature.com/nature"
+    },
+    "Cell": {
+      "zone": 1,
+      "source": "https://www.cell.com/cell/home"
+    },
+    "Science": {
+      "zone": 1,
+      "source": "https://www.science.org/journal/science"
+    },
+    "Nature Methods": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=r8Oz4D"
+    },
+    "Nature Communications": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=pB7xG5"
+    },
+    "Genome Biology": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=rAXoRD"
+    },
+    "Cell Systems": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=DXlYKD"
+    },
+    "Science Advances": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=rz8jq5"
+    },
+    "Nature Biotechnology": {
+      "zone": 1,
+      "source": "https://www.nature.com/nbt"
+    },
+    "Nature Genetics": {
+      "zone": 1,
+      "source": "https://www.nature.com/ng"
+    },
+    "JAMA Ophthalmology": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=5yxaPp"
+    },
+    "Ophthalmology": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=5J1dQp"
+    },
+    "American Journal of Ophthalmology": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=PrzWqp"
+    },
+    "The Ocular Surface": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=peR6K5"
+    },
+    "Investigative Ophthalmology & Visual Science": {
+      "zone": 2,
+      "source": "https://www.ablesci.com/journal/detail?id=p6BnWp"
+    },
+    "British Journal of Ophthalmology": {
+      "zone": 2,
+      "source": "https://www.ablesci.com/journal/detail?id=jr8wJD"
+    },
+    "Eye and Vision": {
+      "zone": 2,
+      "source": "https://www.ablesci.com/journal/detail?id=DG6zW5"
+    },
+    "Nature Biomedical Engineering": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=pPOAar"
+    },
+    "Chemical Engineering Journal": {
+      "zone": 1,
+      "source": "https://www.ablesci.com/journal/detail?id=w5g8JD"
+    }
+  },
+  "singleCell": [
+    "Nature",
+    "Cell",
+    "Science",
+    "Nature Methods",
+    "Nature Biotechnology",
+    "Nature Genetics",
+    "Nature Communications",
+    "Genome Biology",
+    "Cell Systems",
+    "Science Advances",
+    "Nature Biomedical Engineering"
+  ],
+  "dryEye": [
+    "The Ocular Surface",
+    "JAMA Ophthalmology",
+    "Ophthalmology",
+    "American Journal of Ophthalmology",
+    "Investigative Ophthalmology & Visual Science",
+    "British Journal of Ophthalmology",
+    "Eye and Vision",
+    "Nature",
+    "Cell",
+    "Science",
+    "Nature Communications",
+    "Nature Methods",
+    "Nature Biomedical Engineering",
+    "Chemical Engineering Journal"
+  ],
+  "eye": [
+    "JAMA Ophthalmology",
+    "Ophthalmology",
+    "American Journal of Ophthalmology",
+    "The Ocular Surface"
+  ]
+}

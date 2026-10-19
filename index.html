@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="科学前沿｜每周精选 Nature、Cell、Science 生物医学与生物信息学研究，以及眼科、单细胞与空间组学、干眼专题最新研究。" />
+  <meta name="theme-color" content="#f8f8f5" />
+  <title>科学前沿 · Scientific Frontiers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="data/initial.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar" id="sidebar" aria-label="主导航">
+    <a class="brand" href="#top" data-nav="all"><span class="brand-logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="brand-copy"><b>科学前沿</b><small>SCIENTIFIC FRONTIERS</small></span></a>
+    <div class="nav-caption">DISCOVER / 探索</div>
+    <nav class="nav-list" id="mainNav">
+      <button class="nav-item active" data-nav="all"><span class="nav-glyph">◈</span> 本周总览 <span class="nav-count" id="cnt-all">—</span></button>
+      <button class="nav-item" data-nav="Nature"><span class="nav-glyph glyph-nature">◉</span> Nature <span class="nav-count" id="cnt-Nature">—</span></button>
+      <button class="nav-item" data-nav="Cell"><span class="nav-glyph glyph-cell">▧</span> Cell <span class="nav-count" id="cnt-Cell">—</span></button>
+      <button class="nav-item" data-nav="Science"><span class="nav-glyph glyph-science">✺</span> Science <span class="nav-count" id="cnt-Science">—</span></button>
+      <button class="nav-item" data-nav="Eye"><span class="nav-glyph glyph-eye">◉</span> 眼科前沿 <span class="nav-count" id="cnt-Eye">—</span></button>
+      <button class="nav-item" data-nav="SingleCell"><span class="nav-glyph">⬡</span> 单细胞与空间转录组 <span class="nav-count" id="cnt-SingleCell">—</span></button>
+      <button class="nav-item" data-nav="DryEye"><span class="nav-glyph">◉</span> 干眼专题 <span class="nav-count" id="cnt-DryEye">—</span></button>
+    </nav>
+    <div class="nav-caption second-caption">YOUR LIBRARY / 我的资料</div>
+    <nav class="nav-list">
+      <button class="nav-item" data-nav="saved"><span class="nav-glyph">♡</span> 我的收藏 <span class="nav-count" id="cnt-saved">0</span></button>
+      <button class="nav-item" id="exportBtn"><span class="nav-glyph">↧</span> 导出文献清单</button>
+      <button class="nav-item" id="helpBtn"><span class="nav-glyph">ⓘ</span> 数据与更新说明</button>
+    </nav>
+    <div class="sidebar-bottom"><div class="sidebar-note"><div class="pulse"><span></span> WEEKLY DIGEST</div><strong>让好研究，<br>成为下一步研究的起点。</strong><p>关注方法与机制，也审视证据与局限。</p></div><div class="side-foot">独立科研阅读工具<br>不是期刊或出版机构的官方站点</div></div>
+  </aside>
+  <div class="app-main" id="top">
+    <header class="topbar"><div class="breadcrumb"><button class="mobile-menu" id="menuBtn" aria-label="打开菜单">☰</button><span>探索</span><span class="slash">/</span><strong id="breadCurrent">本周总览</strong></div><div class="top-actions"><div class="search-wrap"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="搜索论文、DOI、主题..." aria-label="搜索论文" /><kbd>/</kbd></div><button class="icon-btn" id="bookmarkTop" aria-label="查看收藏">♡ <span id="topSavedCount">0</span></button><span class="issue-id">VOL. 01 <span>↗</span></span></div></header>
+    <main class="content">
+      <div class="topline"><span class="line-mark"></span><span>CURATED SCIENCE / 科研周刊</span><span class="topline-date" id="todayDate">2026.10.18</span></div>
+      <section class="hero" id="hero"><div class="hero-content"><div class="hero-eyebrow"><span class="hero-dot"></span><span id="issueLabel">ISSUE 042 / 2026</span> <span class="hero-separator">·</span> <span id="issueRange">10.12 — 10.18</span></div><h1>洞察科学，<br><em>发现前沿<span class="hero-period">.</span></em></h1><p>每周追踪 <b>Nature · Cell · Science</b> 的生物医学与生信突破，同步追踪眼科学、单细胞空间组学与干眼前沿。<br>不止于研究结论，更关注它为什么重要、创新在哪里、下一步往何处走。</p><div class="hero-buttons"><button class="btn-light" id="readLatest">开始阅读本期 <span>↗</span></button><button class="btn-ghost" id="jumpEye">查看眼科前沿 <span>↗</span></button></div></div><div class="hero-art" aria-hidden="true"><div class="art-label top">FRONTIER SIGNAL<br>NO. 042—26</div><svg viewBox="0 0 460 335" fill="none"><circle cx="250" cy="175" r="130" stroke="#7BB4B1" stroke-opacity=".28"/><circle cx="250" cy="175" r="92" stroke="#7BB4B1" stroke-opacity=".33" stroke-dasharray="3 8"/><circle cx="250" cy="175" r="52" stroke="#7BB4B1" stroke-opacity=".23"/><ellipse cx="250" cy="175" rx="175" ry="65" transform="rotate(-30 250 175)" stroke="#C9DFD6" stroke-opacity=".43" stroke-width="1.5"/><ellipse cx="250" cy="175" rx="150" ry="38" transform="rotate(58 250 175)" stroke="#72C5B8" stroke-opacity=".3"/><path d="M50 228 C115 135 177 235 250 175 C320 112 362 145 424 52" stroke="#9EEBD2" stroke-width="2" stroke-linecap="round"/><path d="M89 64 C155 118 181 61 250 175 C317 279 370 252 414 297" stroke="#83B7C4" stroke-opacity=".6" stroke-width="1.5"/><circle cx="250" cy="175" r="12" fill="#D3F5D7"/><circle cx="250" cy="175" r="24" stroke="#D3F5D7" stroke-opacity=".45"/><circle cx="121" cy="204" r="6" fill="#E6C58B"/><circle cx="347" cy="99" r="5" fill="#A7E1CD"/><circle cx="346" cy="265" r="5" fill="#E6C58B"/><circle cx="172" cy="96" r="4" fill="#9FC7D9"/><path d="M250 175 L347 99 M250 175 L121 204" stroke="#B7D4C4" stroke-opacity=".35"/></svg><div class="orbit-caption"><span>MOLECULES</span><span>CELLS</span><span>DISCOVERIES</span></div><div class="art-label bottom">A WEEKLY RECORD<br>OF WHAT'S NEXT ↗</div></div></section>
+      <section class="metric-row" id="metrics"><div class="metric"><div class="metric-label">本期精选文献 <span>01</span></div><div class="metric-value" id="statTotal">—</div><div class="metric-sub">精选原始研究 / resources</div></div><div class="metric"><div class="metric-label">三大顶刊 <span>02</span></div><div class="metric-value" id="statTop">—</div><div class="metric-sub">Nature · Cell · Science</div></div><div class="metric"><div class="metric-label">眼科专题 <span>03</span></div><div class="metric-value" id="statEye">—</div><div class="metric-sub">重点高水平眼科期刊</div></div><div class="metric"><div class="metric-label">最近更新 <span>04</span></div><div class="metric-value metric-date" id="statDate">10.18</div><div class="metric-sub" id="dataState">首期人工整理 · 可追溯</div></div></section>
+      <section class="topic-row" id="topicSection" aria-label="新增前沿专题">
+        <article class="topic-panel singlecell-panel"><div class="kicker">SINGLE CELL / SPATIAL OMICS · CAS 2025 一区</div><div class="topic-head"><h2>单细胞测序<br>与空间转录组</h2><span id="topicCountSingleCell">— 篇</span></div><p>单细胞与单核测序、空间表达图谱、细胞互作及生信分析方法。只收录近一完整周内符合一区期刊要求的原始研究。</p><div class="topic-latest" id="topicLatestSingleCell">正在载入本周研究…</div><button class="topic-go" data-topic="SingleCell">进入单细胞专题 ↗</button></article>
+        <article class="topic-panel dryeye-panel"><div class="kicker">DRY EYE / OCULAR SURFACE · CAS 2025 一、二区</div><div class="topic-head"><h2>干眼<br>研究进展</h2><span id="topicCountDryEye">— 篇</span></div><p>涵盖 MGD、泪膜稳态、眼表炎症、诊疗技术及干眼相关临床研究。仅纳入一区、二区高水平期刊。</p><div class="topic-latest" id="topicLatestDryEye">正在载入本周研究…</div><button class="topic-go" data-topic="DryEye">进入干眼专题 ↗</button></article>
+      </section>
+      <section class="feature-block" id="feature"><div class="section-heading"><div><div class="kicker">EDITOR'S SELECTION / 编辑精选</div><h2>本周值得深读 <span class="heading-star">✳</span></h2></div><span class="eyebrow-aside">BEYOND THE ABSTRACT</span></div><div id="featuredCard"></div></section>
+      <section class="papers-section" id="papers"><div class="section-heading paper-heading"><div><div class="kicker">THE RESEARCH / 本周研究</div><h2 id="listTitle">顶刊研究速递<span class="heading-star">.</span></h2></div><p>真实论文元数据 · 六维结构化解读</p></div><div class="filter-bar"><div class="filter-tabs" id="filterTabs"><button class="filter active" data-filter="all">全部论文</button><button class="filter" data-filter="Nature">Nature</button><button class="filter" data-filter="Cell">Cell</button><button class="filter" data-filter="Science">Science</button><button class="filter" data-filter="Eye">眼科前沿</button><button class="filter" data-filter="SingleCell">单细胞 / 空转</button><button class="filter" data-filter="DryEye">干眼</button></div><div class="filter-right"><span id="resultCount">— 篇结果</span><select id="sortSelect" aria-label="排序"><option value="newest">最新发表</option><option value="oldest">最早发表</option><option value="journal">按期刊排序</option></select></div></div><div class="papers-grid" id="paperGrid"></div><div id="loadMoreWrap" hidden style="text-align:center;margin:26px 0"><button id="loadMoreBtn" class="btn-light" style="color:#194d41;background:#eef4ed;border:1px solid #c7d8cd;cursor:pointer">加载更多论文 ↓</button></div><div class="empty-state" id="emptyState" hidden><span>⌕</span><strong>没有找到匹配的研究</strong><p>请调整筛选条件或搜索关键词。</p><button id="clearFilters">清除筛选</button></div></section>
+      <section class="eye-strip" id="eyeSection"><div class="eye-identity"><span class="eye-icon">◉</span><div><div class="kicker">OPHTHALMOLOGY / 眼科专项</div><h2>让眼科前沿，更近一步。</h2><p>聚焦眼表、角膜、视网膜、青光眼、眼肿瘤与眼科人工智能。分区按照中科院2025年大类分区整理，不与 JCR 分区混用。</p><button class="eye-go" id="eyeExplore">浏览眼科研究 <span>↗</span></button></div></div><div class="eye-visual" aria-hidden="true"><svg viewBox="0 0 210 210" fill="none"><circle cx="105" cy="105" r="89" stroke="#a9c7c0" stroke-width="1"/><circle cx="105" cy="105" r="65" stroke="#a9c7c0" stroke-width="1" stroke-dasharray="3 5"/><path d="M12 106 C57 36 153 36 198 106 C151 174 57 174 12 106Z" stroke="#184741" stroke-width="2"/><circle cx="105" cy="106" r="33" stroke="#184741" stroke-width="2"/><circle cx="105" cy="106" r="21" fill="#184741"/><circle cx="112" cy="97" r="7" fill="#9ed8c8"/></svg><div class="eye-visual-meta">FIELD NOTES <span>CAS / 2025</span></div></div></section>
+      <section class="ranking-note"><b>期刊分区说明</b>：新增专题以中科院2025年最后一版大类分区为筛选参考。该机构2026年起停止更新分区表。分区名单须定期人工核对，自动检索不会据此断言某篇论文的学术质量。 <a href="https://www.lib.szu.edu.cn/er/fenqubiao" target="_blank" rel="noopener noreferrer">分区表说明 ↗</a></section>
+      <section class="principles"><div class="kicker">READING PRINCIPLES / 阅读方法</div><div class="principles-row"><div><b>01 / 文献可溯源</b><p>DOI 优先关联原文，PMID 通过 PubMed 对照；未收录则如实留空。</p></div><div><b>02 / 结论与推论分开</b><p>分离原研究结论、解读推断与未来假说，避免过度外推。</p></div><div><b>03 / 不夸大创新</b><p>所有创新性与不足均需要证据，摘要解读须注明未完成全文审阅。</p></div></div></section>
+      <footer><span>© 2026 科学前沿 · SCIENTIFIC FRONTIERS</span><span>在好奇中严谨 · 在证据中前行</span></footer>
+    </main>
+  </div>
+</div>
+<div id="drawerShade" class="drawer-shade" hidden></div>
+<aside id="detailDrawer" class="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="detailTitle" aria-hidden="true"><div class="drawer-top"><span>RESEARCH BRIEF / 论文深读</span><button id="closeDrawer" aria-label="关闭详情">✕</button></div><div class="drawer-scroll" id="drawerBody"></div></aside>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
