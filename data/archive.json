@@ -1,5 +1,11 @@
 [
   {
+    "issue": "2026-W43",
+    "weekStart": "2026-10-19",
+    "weekEnd": "2026-10-25",
+    "file": "data/issues/2026-W43.json"
+  },
+  {
     "issue": "2026-W42",
     "weekStart": "2026-10-12",
     "weekEnd": "2026-10-18",
